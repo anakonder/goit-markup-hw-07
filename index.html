@@ -23,16 +23,11 @@
     <!-- Header -->
 
     <header class="header">
-      <div class="conteiner header-wrap">
+      <div class="container header-wrap">
         <nav class="header-nav">
-          <!-- Logo -->
-
           <a class="header-logo link" href="/"
             ><span class="header-logo-web link">WEB</span>STUDIO</a
           >
-
-          <!-- Navi -->
-
           <ul class="site-nav list">
             <li><a class="header-nav-link link current" href="">Studio</a></li>
             <li>
@@ -43,9 +38,6 @@
             <li><a class="header-nav-link link" href="">Contacts</a></li>
           </ul>
         </nav>
-
-        <!-- Contacts -->
-
         <ul class="header-contact-list list">
           <li>
             <a class="header-contact link" href="mailto:info@devstudio.com"
@@ -58,16 +50,23 @@
             >
           </li>
         </ul>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mobile-menu-icone" width="32" height="20">
+            <use href="./images/icons.svg#icon-charm-menu-hamburger"></use>
+          </svg>
+        </button>
       </div>
     </header>
-
-    <!-- Main content -->
 
     <main>
       <!-- Hero section -->
 
       <section class="hero-section">
-        <div class="conteiner">
+        <div class="container">
           <h1 class="hero-baner">
             Effective Solutions <br />
             for Your Business
@@ -80,8 +79,8 @@
 
       <!-- Benefit -->
 
-      <section class="benefit section">
-        <div class="conteiner">
+      <!-- <section class="benefit section">
+        <div class="container">
           <h2 class="uppertitle visually-hidden">Benefit</h2>
           <ul class="benefit-list list">
             <li class="benefit-items">
@@ -134,12 +133,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- What are we doing -->
 
-      <section class="work-field section">
-        <div class="conteiner">
+      <!-- <section class="work-field section">
+        <div class="container">
           <h2 class="uppertitle">What are we doing</h2>
           <ul class="work-field-list list">
             <li class="work-field-item">
@@ -171,12 +170,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Aur team -->
 
-      <section class="team section">
-        <div class="conteiner">
+      <!-- <section class="team section">
+        <div class="container">
           <h2 class="uppertitle">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
@@ -449,104 +448,101 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Customers -->
 
-      <section class="сustomers-section section">
-        <div class="container"><h2 class="uppertitle">Customers</h2></div>
-        <ul class="customers list">
-          <li class="customers-iteam">
-            <a
-              class="customers-link link"
-              href=""
-              aria-label="customer-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="customers-icon" width="104" height="58">
-                <use href="./images/icons.svg#icon-logo"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-iteam"></li>
-          <li class="customers-iteam">
-            <a
-              class="customers-link link"
-              href=""
-              aria-label="customer-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="customers-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-logo-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-iteam"></li>
-          <li class="customers-iteam">
-            <a
-              class="customers-link link"
-              href=""
-              aria-label="customer-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="customers-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-logo-2"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-iteam"></li>
-          <li class="customers-iteam">
-            <a
-              class="customers-link link"
-              href=""
-              aria-label="customer-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="customers-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-logo-3"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-iteam"></li>
-          <li class="customers-iteam">
-            <a
-              class="customers-link link"
-              href=""
-              aria-label="customer-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="customers-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-logo-4"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-iteam"></li>
-          <li class="customers-iteam">
-            <a
-              class="customers-link link"
-              href=""
-              aria-label="customer-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="customers-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-logo-5"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+      <section class="customers-section section">
+        <div class="customers-section-wrap container">
+          <h2 class="uppertitle">Customers</h2>
+          <ul class="customers list">
+            <li class="customers-iteam">
+              <a
+                class="customers-link link"
+                href=""
+                aria-label="customer-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="customers-icon" width="104" height="58">
+                  <use href="./images/icons.svg#icon-logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-iteam">
+              <a
+                class="customers-link link"
+                href=""
+                aria-label="customer-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-logo-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-iteam">
+              <a
+                class="customers-link link"
+                href=""
+                aria-label="customer-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-logo-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-iteam">
+              <a
+                class="customers-link link"
+                href=""
+                aria-label="customer-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-logo-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-iteam">
+              <a
+                class="customers-link link"
+                href=""
+                aria-label="customer-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-logo-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-iteam">
+              <a
+                class="customers-link link"
+                href=""
+                aria-label="customer-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-logo-5"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- Footer -->
 
     <footer class="footer">
-      <div class="conteiner footer-container">
+      <div class="container footer-container">
         <div class="footer-left">
           <a class="footer-logo link" href="/"
             ><span class="header-logo-web link">WEB</span>STUDIO</a
@@ -724,5 +720,104 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+
+    <!-- Mobil menu -->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-close-btn js-close-menu btn">
+        <svg>
+          <use
+            href="./images/icons.svg#icon-close-modal"
+            width="8"
+            hight="8"
+          ></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu mobile-menu-link">
+        <li><a class="menu-nav-link link current" href="">Studio</a></li>
+        <li>
+          <a class="menu-nav-link link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li><a class="menu-nav-link link" href="">Contacts</a></li>
+      </ul>
+      <ul class="mobile-menu mobile-contact list">
+        <li>
+          <ul class="mobile-socials socials list">
+            <li class="socials-item">
+              <a
+                class="socials-link link"
+                href="https://www.instagram.com"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                class="socials-link link"
+                href="https://twitter.com"
+                aria-label="Twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                class="socials-link link"
+                href="https://www.facebook.com"
+                aria-label="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                class="socials-link link"
+                href="https://www.linkedin.com"
+                aria-label="Linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="mobile-menu-item-email">
+          <a
+            class="menu-contact link menu-email"
+            href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="mobile-menu-item-phone">
+          <a class="menu-contact link menu-phone" href="tel:110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+      </ul>
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
